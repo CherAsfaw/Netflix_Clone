@@ -1,0 +1,18 @@
+
+.list-wrapper ul, li {
+ list-style-type: none;
+ font-size: 12px;
+ padding: 0;
+ color: #fff;
+ margin-top: 8px;
+ /* text-align: center; */
+ margin-left: 28px;
+}
+.div-container {
+  margin-left: 228px;
+ color: #fff;
+ font-size: 12px;
+}
+
+
+
