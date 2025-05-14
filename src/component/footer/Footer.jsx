@@ -16,13 +16,17 @@ function Footer() {
         <Row className="justify-content-end my-3">
           <Col className="col-3">
             <div className="d-flex justify-content-center mb-2">
-              <FacebookOutlinedIcon />
-              <div className="mx-4">
+              <div className="icon">
+                <FacebookOutlinedIcon />
+              </div>
+              <div className="mx-4 icon">
                 <InstagramIcon />
               </div>
-              <YouTubeIcon />
+              <div className="icon">
+                <YouTubeIcon />
+              </div>
             </div>
-            <div className="list-wrapper ">
+            <div className="list-wrapper d-flex justify-content-start">
               <ul>
                 <li>Audio Description</li>
                 <li>Investor Relations</li>
@@ -60,8 +64,8 @@ function Footer() {
           </Col>
         </Row>
       </Container>
-      <div className='div-container'>
-        <div className="ms-5">Service Code</div>
+      <div className="div-container">
+        <p className="ms-5 px-2">Service Code</p>
         <div className="ms-5">&copy; 1997-2025 Netflix, Inc</div>
       </div>
     </>

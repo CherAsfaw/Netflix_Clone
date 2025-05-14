@@ -3,15 +3,25 @@
  list-style-type: none;
  font-size: 12px;
  padding: 0;
- color: #fff;
+ color: #b4b1b1;
  margin-top: 8px;
  /* text-align: center; */
  margin-left: 28px;
 }
-.div-container {
-  margin-left: 228px;
- color: #fff;
+.div-container, p {
+ margin-left: 228px;
+ color: #b4b1b1;
  font-size: 12px;
+ padding-bottom: 0;
+ margin-top: 0;
+
+}
+.div-container p {
+  border: 1px #fff solid;
+  width: 90px;
+}
+.icon {
+  color: white;
 }
 
 
